@@ -1,0 +1,77 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:green;
+}
+
+nav {
+    background-color: yellow;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+nav a {
+    margin: .2em 1em 0px 1em;
+    color: black;
+}
+
+nav a:hover {
+    color: red(247, 129, 129)
+}
+.wrapper {
+    background-color: #ffffff;
+
+}
+
+h1, h2, h3, p {
+    color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.img-hero {
+    width: 100%;
+    height: 30em;
+    overflow: hidden;
+
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: green;
+}
+
+main{
+    flex: 2;
+    margin: 1em
+}
+
+aside{
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: goldenrod;
+}
